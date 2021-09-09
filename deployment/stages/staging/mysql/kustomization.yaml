@@ -4,4 +4,7 @@ bases:
 
 resources:
 - service.yaml
-- secret.yaml
+#- secret.yaml
+
+generators:
+- secret-generator.yaml
