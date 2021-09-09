@@ -11,7 +11,7 @@ spec:
     path: deployment/stages/dev/mysql
     repoURL: 'https://github.com/deadpoet6/demo.git'
     targetRevision: HEAD
-  project: dev
+  project: default
   syncPolicy:
     automated:
       prune: false
@@ -30,7 +30,7 @@ spec:
     path: deployment/stages/dev/wordpress
     repoURL: 'https://github.com/deadpoet6/demo.git'
     targetRevision: HEAD
-  project: dev
+  project: default
   syncPolicy:
     automated:
       prune: false
