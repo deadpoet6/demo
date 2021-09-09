@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   annotations:
     kubernetes.io/ingress.class: nginx
-  generation: 6
+  generation: 1
   labels:
     app.kubernetes.io/instance: wordpress
   name: wordpress-dev
