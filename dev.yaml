@@ -12,6 +12,10 @@ spec:
     repoURL: 'https://github.com/deadpoet6/demo.git'
     targetRevision: HEAD
   project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
 ---
 ## wordpress
 apiVersion: argoproj.io/v1alpha1
@@ -27,3 +31,7 @@ spec:
     repoURL: 'https://github.com/deadpoet6/demo.git'
     targetRevision: HEAD
   project: default
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
