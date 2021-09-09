@@ -1,4 +1,7 @@
+---
+bases:
+  - ../../../base/mysql/
+
 resources:
-- deployment.yaml
 - service.yaml
 - secret.yaml

@@ -9,12 +9,12 @@ spec:
       - name: init-command
         image: debian
         command: ["/bin/sh"]
-        args: ["-c", "echo $(WORDPRESS_SERVICE); echo $(MYSQL_SERVICE)"]
+        args: ["-c", "echo $(WORDPRESS_SERVICE); echo mysql-dev"]
       containers:
       - name: wordpress
         env:
         - name: WORDPRESS_DB_HOST
-          value: $(MYSQL_SERVICE)
+          value: mysql-dev
         - name: WORDPRESS_DB_PASSWORD
           valueFrom:
             secretKeyRef:

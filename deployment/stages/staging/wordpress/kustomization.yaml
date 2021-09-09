@@ -1,0 +1,6 @@
+---
+bases:
+  - ../../../base/wordpress/
+
+resources:
+- service.yaml
