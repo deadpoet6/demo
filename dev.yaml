@@ -11,7 +11,7 @@ spec:
     path: deployment/stages/dev/mysql
     repoURL: 'https://github.com/deadpoet6/demo.git'
     targetRevision: HEAD
-  project: default
+  project: dev
 ---
 ## wordpress
 apiVersion: argoproj.io/v1alpha1
@@ -26,4 +26,4 @@ spec:
     path: deployment/stages/dev/wordpress
     repoURL: 'https://github.com/deadpoet6/demo.git'
     targetRevision: HEAD
-  project: default
+  project: dev
