@@ -6,8 +6,8 @@ resources:
 - service.yaml
 #- secret.yaml
 
-# generators:
-# - secret-generator.yaml
+generators:
+- secret-generator.yaml
 
 
 # Unable to create application: application spec is invalid: InvalidSpecError:
