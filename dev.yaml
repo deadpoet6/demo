@@ -13,6 +13,9 @@ spec:
     targetRevision: HEAD
   project: default
   syncPolicy:
+    syncOptions:
+      - PruneLast=true
+      - ApplyOutOfSyncOnly=true
     automated:
       prune: true
       selfHeal: true
@@ -32,6 +35,9 @@ spec:
     targetRevision: HEAD
   project: default
   syncPolicy:
+    syncOptions:
+      - PruneLast=true
+      - ApplyOutOfSyncOnly=true
     automated:
       prune: true
       selfHeal: true
