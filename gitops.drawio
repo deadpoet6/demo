@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="C0SG2YhUB3NeeaddH4Fv" name="Page-1">
-        <mxGraphModel dx="1899" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2155" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -35,9 +35,9 @@
                 <mxCell id="10" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.laptop;pointerEvents=1;" parent="1" vertex="1">
                     <mxGeometry x="113.75" y="590" width="60" height="35" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="Kustomize" style="swimlane;startSize=20;horizontal=1;childLayout=treeLayout;horizontalTree=0;resizable=0;containerType=tree;" parent="1" vertex="1" collapsed="1">
-                    <mxGeometry x="-153.75" y="255" width="90" height="20" as="geometry">
-                        <mxRectangle x="-153.75" y="255" width="280" height="280" as="alternateBounds"/>
+                <mxCell id="24" value="Kustomize" style="swimlane;startSize=20;horizontal=1;childLayout=treeLayout;horizontalTree=0;resizable=0;containerType=tree;" parent="1" vertex="1">
+                    <mxGeometry x="-153.75" y="255" width="280" height="280" as="geometry">
+                        <mxRectangle x="-153.75" y="255" width="90" height="20" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="25" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 14px&quot;&gt;Base&lt;/font&gt;" style="whiteSpace=wrap;html=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" parent="24" vertex="1">
@@ -127,12 +127,6 @@
                 </mxCell>
                 <mxCell id="53" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=secret" vertex="1" parent="1">
                     <mxGeometry x="560" y="860" width="50" height="48" as="geometry"/>
-                </mxCell>
-                <mxCell id="54" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="300" y="650" width="370" height="310" as="geometry"/>
-                </mxCell>
-                <mxCell id="46" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="-400" y="200" width="600" height="510" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
